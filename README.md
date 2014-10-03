@@ -23,3 +23,5 @@ First off the java SE must be installed onto your machine, you can follow the li
 From here you will download and install the version based on your specific machine.
 unzip the file and grab the jar file for the program which will be found in the dist folder of the zip file.
 Then in order to run the file, you will use the terminal to call this command java -jar nameOfJarFile
+Original Blender Python code was adapted from Lubosz's Blog from http://lubosz.wordpress.com/2013/06/26/oculus-rift-support-in-blender-game-engine/ 
+
