@@ -9,10 +9,10 @@ So far we have a basic .blend file which requires websocket-client 0.18.0 https:
 which depended on six.
 Both modules were installed by installing python 3.4 from https://www.python.org/downloads/ and then installing set-up tools:
 
-curl https://bootstrap.pypa.io/ez_setup.py -o - | python3
-Both modules were installed by installing python 3.4 from https://www.python.org/downloads/ and then installing set-up tools: 
-curl https://bootstrap.pypa.io/ez_setup.py -o - | python3
-If you are using windows follow the instructions here:
+curl https://bootstrap.pypa.io/ez_setup.py -o - | python3  
+Both modules were installed by installing python 3.4 from https://www.python.org/downloads/ and then installing set-up tools:   
+curl https://bootstrap.pypa.io/ez_setup.py -o - | python3  
+If you are using windows follow the instructions here:  
 https://pypi.python.org/pypi/setuptools
 After installing setuptools run
 easy_install-3.4 websocket-client 
