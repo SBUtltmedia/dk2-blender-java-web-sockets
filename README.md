@@ -7,11 +7,16 @@ Using OS Mavericks the following instructions will differ slightly for windows
 
 So far we have a basic .blend file which requires websocket-client 0.18.0 https://pypi.python.org/pypi/websocket-client/
 which depended on six.
+<<<<<<< HEAD
 
 Both modules were installed by installing python 3.4 from https://www.python.org/downloads/ and then installing set-up tools: 
 
 curl https://bootstrap.pypa.io/ez_setup.py -o - | python3
 
+=======
+Both modules were installed by installing python 3.4 from https://www.python.org/downloads/ and then installing set-up tools: 
+curl https://bootstrap.pypa.io/ez_setup.py -o - | python3
+>>>>>>> FETCH_HEAD
 If you are using windows follow the instructions here:
 https://pypi.python.org/pypi/setuptools
 After installing setuptools run
