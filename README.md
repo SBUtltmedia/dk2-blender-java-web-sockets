@@ -20,7 +20,7 @@ There doesn't (seem) to be an easy way to install Python modules within the Pyth
 /Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/   
 to  
 /Applications/Blender/blender.app/Contents/MacOS/2.71/python/lib/python3.4/site-packages (assuming Blender is in Applications)
-(OS X Paths, Windows Path will differ)
+(OS X Paths, Windows Path will differ)  
 Once that is done you must go into the websocket_client-0.18.0-py3.4.egg folder and grab the websocket folder and move it into the site-packages folder. Also you must 
 go into six-18.0-py3.4.egg folder in site-packages and move the six.py file into site-packages. this will ensure that the code in Blender will find the necessary libraries. 
 
