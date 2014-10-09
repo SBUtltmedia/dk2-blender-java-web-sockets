@@ -21,12 +21,13 @@ There doesn't (seem) to be an easy way to install Python modules within the Pyth
 to  
 /Applications/Blender/blender.app/Contents/MacOS/2.71/python/lib/python3.4/site-packages (assuming Blender is in Applications)
 (OS X Paths, Windows Path will differ)
-Once that is done you must go into the websocket_client-0.18.0-py3.4.egg folder and grab 
+Once that is done you must go into the websocket_client-0.18.0-py3.4.egg folder and grab the websocket folder and move it into the site-packages folder. Also you must 
+go into six-18.0-py3.4.egg folder in site-packages and move the six.py file into site-packages. this will ensure that the code in Blender will find the necessary libraries. 
 
-We've included the jar file and required libraries as a file OculusWS.zip
+We've included the jar file and required libraries as a file OculusWS.zip.
 First off the java SE must be installed onto your machine, you can follow the link http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  
 From here you will download and install the version based on your specific machine.
-Unzip the file and grab the jar file for the program which will be found in the dist folder of the zip file.
+Unzip the file and grab the jar file for the program which will be found in the dist folder of the zip file.  
 Then in order to run the file, you will use the terminal to call this command java -jar nameOfJarFile  
-Original Blender Python code was adapted from Lubosz's Blog from http://lubosz.wordpress.com/2013/06/26/oculus-rift-support-in-blender-game-engine/ 
+Original Blender Python code was adapted from Lubosz's Blog from http://lubosz.wordpress.com/2013/06/26/oculus-rift-support-in-blender-game-engine/  
 
